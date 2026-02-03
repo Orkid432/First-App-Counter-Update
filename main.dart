@@ -21,7 +21,7 @@ class CounterScreen extends StatefulWidget {
 
   @override
   State<CounterScreen> createState() {
-    return _CounterScreenState();   // ✅ block style, no inline
+    return _CounterScreenState();   
   }
 }
 
@@ -87,3 +87,4 @@ class _CounterScreenState extends State<CounterScreen> {
     );
   }
 }
+
